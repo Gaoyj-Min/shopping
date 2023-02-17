@@ -3,3 +3,52 @@
     width: 1200px;
     margin:0 auto;
 }
+.top-nar{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.top-nar-content{
+    height: 30px;
+    width: 1200px;
+    margin:0 auto;
+}
+.login-nar{
+    float: left;
+    color: #666666;
+    font-size: 12px;
+    line-height: 30px;
+    width: 220px;
+    height: 100%;
+    background-color: pink;
+    font-family: "微软雅黑";
+}
+.login-nar > div{
+    float: left;
+}
+.order-nar{
+    float: right;
+    color: #666666;
+    font-size: 12px;
+    line-height: 30px;
+    width: 660px;
+    height: 100%;
+    background-color: pink;
+}
+.login-nar-2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.login-nar-3 a{
+    color: #c81623;
+}
+/* 右侧导航 */
+
+.top-nar-content .order-nar .order-nar-content{
+    float: left;
+    height: 100%;
+    padding: 0px 16px;
+}
+.top-nar-content .order-nar div{
+    float: left;
+}
