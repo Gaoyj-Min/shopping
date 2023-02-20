@@ -52,3 +52,20 @@
 .top-nar-content .order-nar div{
     float: left;
 }
+
+/* 品优购图标 */
+.search-nar{
+    height: 106px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: pink;
+    position: relative;
+}
+.search-nar .logo1{
+    width: 219px;
+    height: 106px;
+    position: absolute;
+}
+.search-bar1{
+    
+}
