@@ -20,7 +20,7 @@
     line-height: 30px;
     width: 220px;
     height: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     font-family: "微软雅黑";
 }
 .login-nar > div{
@@ -33,7 +33,7 @@
     line-height: 30px;
     width: 660px;
     height: 100%;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .login-nar-2{
     margin-left: 15px;
@@ -58,14 +58,67 @@
     height: 106px;
     width: 1200px;
     margin: 0 auto;
-    background-color: pink;
-    position: relative;
+    /* background-color: pink; */
+    
 }
 .search-nar .logo1{
     width: 219px;
     height: 106px;
-    position: absolute;
+    float: left;
 }
-.search-bar1{
+.search-nar .search-text{
+    float: left;
+    margin-left: 128px;
+    margin-top: 27px;
+    font-size:16px;
     
+}
+.search-text .search-bar1{
+    width: 460px;
+    height: 35px;
+    border: 2px solid #b1191a;
+    float: left;
+    color: #adadad;
+    padding-left: 14px;
+
+}
+.search-text .search-bar2{
+    width: 84px;
+    height: 35px;
+    background-color: #b1191a;
+    float: left;
+    margin-left: -2px;
+    border: 2px solid #b1191a;
+    color:  #faf4f4 ;
+    
+}
+.search-nar .shop-cart{
+    position: relative;
+    float: left;
+    width: 138px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    font-size:12px;
+    color: #666666;
+    line-height: 35px;
+}
+.shop-cart{
+    background-color: #f7f7f7;
+    margin-left: 110px;
+    margin-top: 27px;
+    font-family: 'icomoon';
+}
+.shop-cart .cart-logo{
+    float: left;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.shop-cart .my-cart{
+   margin-left: 8px;
+}
+.shop-cart .eight{
+    position: absolute;
+    right: 20px;
+    top: -5px;
 }
