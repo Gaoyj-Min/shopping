@@ -60,34 +60,40 @@
     /* background-color: pink; */
     
 }
+/* logo制作 */
 .search-nar .logo1{
     width: 219px;
     height: 106px;
     float: left;
+    background-image: url('../images/logo1.png');
+    text-indent: -9999px;
+    overflow: hidden;
 }
+
 .search-nar .search-text{
     float: left;
     margin-left: 128px;
     margin-top: 27px;
     font-size:16px;
-    
+    border: 2px solid #b1191a;
 }
 .search-text .search-bar1{
     width: 460px;
     height: 35px;
-    border: 2px solid #b1191a;
+    border: 0px;
+    outline: none;
     float: left;
     color: #adadad;
     padding-left: 14px;
 
 }
 .search-text .search-bar2{
-    width: 84px;
+    width: 80px;
     height: 35px;
     background-color: #b1191a;
     float: left;
     margin-left: -2px;
-    border: 2px solid #b1191a;
+    border: 0px;
     color:  #faf4f4 ;
     
 }
@@ -97,7 +103,7 @@
     left: 348px;
 }
 .search-nar .hotwords a{
-    padding: 5px;
+    padding: 10px;
     font-size: 12px;
     color:#666666 ;
 }
@@ -128,8 +134,18 @@
 }
 .shop-cart .eight{
     position: absolute;
-    right: 20px;
+    left: 105px;
     top: -5px;
+    height: 14px;
+    padding: 0px 5px;
+    background-color: red;
+    line-height: 14px;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 0;
+}
+.shop-cart::after{
+    content: '\e920';
+    vertical-align: middle;
 }
 /* 开头分类 */
 .category{
@@ -141,7 +157,7 @@
     font-size: 16px;
     line-height: 48px;
 }
-.category i{
+.category .dropdown{
     float: left;
     width: 210px;
     height: 48px;
@@ -152,7 +168,7 @@
     color: #ffffff;
 }
 
-.category a{
+.category >ul> a{
     padding: 0px 30px;
 }
 hr{
@@ -162,49 +178,62 @@ hr{
 }
 /* 侧分类 */
 
-.body-top .side-cate{
+.dropdown .dd{
+    text-align: left;
     width: 210px;
-    height: 514px;
+    height: 465px;
     background-color: #c81623;
-    float: left;
+    /* float: left; */
+    display: none;
 }
-.body-top .side-cate li{
-    padding: 0px 0px 0px 12px;
-    font-size: 14px;
-    height: 34px;
-    line-height: 34px;
+.dropdown .dd li{
+    padding: 0px 0px 0px 10px;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
 }
-.body-top .side-cate a{
+.dropdown .dd a{
     color: #ffffff;
+    font-size: 14px;
 }
-.body-top img{
-    margin-left: 9px;
-    margin-top: 9px;
-    float: left;
-}
-.body-top .side-cate a::after{
 
+.dropdown .dd li:hover{
+    background-color: #ffffff;
 }
-.body-top .newflash{
+.dropdown .dd li::after{
+    font-family: 'icomoon';
+    content: '\e920';
+    float: right;
+    margin-right: 10px;
+}
+.dropdown .dd li:hover a,
+.dropdown .dd li:hover::after{
+    color:#c81623;
+}
+
+
+.footer{
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+.mod_service{
+    height: 80px;
+    padding: 0px ;
+    border-bottom: 1px solid #ededed;
+}
+.mod_service li{
+    height: 50px;
+    width: 240px;
     float: left;
-    width: 251px;
-    height: 372px;
-    margin-left: 9px;
-    margin-top: 9px;
+    background-color: yellow;
+    padding-left: 35px;
+    
 }
-.body-top .newflash .newflash1{
-    width: 251px;
-    height: 163px;
-    background-color: pink;
-}
-.body-top .newflash .newflash2{
-    width: 250px;
-    height: 210px;
-    background-color: pink;
-}
-.body-top .newflash .newflash2 li{
-    width: 62.5px;
-    height: 70px;
-    border: 1px solid #e8e8e7;
+.mod_service li h5{
+    width: 50px;
+    height: 50px;
     float: left;
+    background: url('../images/icons.png') no-repeat -252px -2px;
+    margin-right: 8px;
 }
