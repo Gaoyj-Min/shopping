@@ -184,7 +184,7 @@ hr{
     height: 465px;
     background-color: #c81623;
     /* float: left; */
-    display: none;
+    /* display: none;  */
 }
 .dropdown .dd li{
     padding: 0px 0px 0px 10px;
