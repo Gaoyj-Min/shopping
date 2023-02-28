@@ -1,0 +1,66 @@
+.phone{
+    width: 290px;
+    height: 460px;
+    background-color: pink;
+}
+.phone .phone-rel{
+    height: 410px; 
+}
+.phone img{
+    width: 290px;
+}
+.rela-tex h3{
+    padding: 0 14px;
+}
+.phone .buy{
+    display: block;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    border: 0;
+    color: #fff;
+    font-size: 19px;
+    /* font-weight: 400; */
+}
+
+.rela-tex h3{
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 18px;
+
+}
+.rela-tex .price,
+.rela-tex .shouchu{
+    padding: 0 14px;
+    height: 28px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.rela-tex .price i:nth-child(2){
+    color:#b1191a ;
+    font-size: 19px;
+}
+.rela-tex .price i:nth-child(1)
+{
+    
+    color:#b1191a ;
+    font-size: 12px;
+}
+.rela-tex .shouchu .jdt1
+{
+    width: 118px;
+    height: 12px;
+    border: 1px solid #b1191a;
+    background-color: #b1191a;
+    float: left;
+    border-radius: 8px 0 0 8px;
+}
+.rela-tex .shouchu .jdt2{
+    float: left;
+    width: 16px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #b1191a;
+    border-radius: 0 8px 8px 0;
+
+}
