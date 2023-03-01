@@ -1,0 +1,51 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.header img{
+    height: 80px;
+}
+.main .m-h{
+    height: 42px;
+    border: 1px solid #dfdfdf;
+    background-color: #ececec;
+    margin-top: 20px;
+}
+.main .m-h>i:first-child{
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    margin-left: 11px;
+    line-height: 42px;
+}
+
+.main .m-h p{
+    float: right;
+    line-height: 42px;
+    margin-right: 12px;
+}
+.main .m-h p a{
+    color: #b1191a;
+}
+.m-d{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 55px;
+}
+.m-d .tel input[type='tel']{
+    width: 240px;
+    margin-left: 14px;
+}
+.m-d .tel i:last-child{
+    font-size: 12px;
+    color: #df3033;
+}
+.m-d li em{
+    background-color: pink;
+    padding: 0 10px;
+    margin-left: 2px;
+}
