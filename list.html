@@ -6,18 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .font,
-        .back{
+        body{
+            perspective: 100px;
+        }
+        .box{
+            margin: 100px auto;
             width: 200px;
             height: 200px;
-            border-radius: 50%;
+            position:relative;
+            transform-style: preserve-3d;
+            transition: all 1s;
         }
+        .font,
+        .back{
+            /* float: left; */
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 19px;
+            color: #fff;
+            line-height: 200px;
+        }
+        .font{
+            background-color: pink;
+            z-index: 1;
+            backface-visibility: hidden;
+        }
+        .back{
+            background-color: black;
+            transform: rotateY(180deg);
+            /* z-index: -1; */
+        }
+        .box:hover{
+            transform: rotateY(180deg);
+        }
+
     </style>
 </head>
 <body>
     <div class="box">
-        <div class="front"></div>
-        <div class="back"></div>
+        <div class="font">pink</div>
+        <div class="back">gyj</div>
+        
     </div>
 </body>
 </html>
